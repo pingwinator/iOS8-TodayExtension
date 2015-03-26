@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01C08154-9FC0-4280-BD7F-BB656F19C68E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Disk Space</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BB175329EB8DA285927F580274D9672132B79A8A</key>
+		<string>github.com:pingwinator/iOS8-TodayExtension.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Disk Space.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BB175329EB8DA285927F580274D9672132B79A8A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:pingwinator/iOS8-TodayExtension.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BB175329EB8DA285927F580274D9672132B79A8A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB175329EB8DA285927F580274D9672132B79A8A</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB175329EB8DA285927F580274D9672132B79A8A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS8-TodayExtension</string>
+		</dict>
+	</array>
+</dict>
+</plist>
