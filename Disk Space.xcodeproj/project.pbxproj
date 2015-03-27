@@ -17,6 +17,7 @@
 		CF08FD7719EEB58D00E94CD7 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF08FD7619EEB58D00E94CD7 /* NotificationCenter.framework */; };
 		CF08FD7D19EEB58D00E94CD7 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08FD7C19EEB58D00E94CD7 /* TodayViewController.m */; };
 		CF08FD7F19EEB58D00E94CD7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF08FD7E19EEB58D00E94CD7 /* MainInterface.storyboard */; };
+		FD0B95E61AC5BA1100CC94B8 /* Used Space.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF08FD7419EEB58D00E94CD7 /* Used Space.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,13 @@
 			remoteGlobalIDString = CF08FD4619EEB58100E94CD7;
 			remoteInfo = "Disk Space";
 		};
+		FD0B95E71AC5BA1400CC94B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF08FD3F19EEB58100E94CD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF08FD7319EEB58D00E94CD7;
+			remoteInfo = "Used Space";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				FD0B95E61AC5BA1100CC94B8 /* Used Space.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 1;
@@ -194,6 +203,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FD0B95E81AC5BA1400CC94B8 /* PBXTargetDependency */,
 			);
 			name = "Disk Space";
 			productName = "Disk Space";
@@ -338,6 +348,11 @@
 			isa = PBXTargetDependency;
 			target = CF08FD4619EEB58100E94CD7 /* Disk Space */;
 			targetProxy = CF08FD6119EEB58200E94CD7 /* PBXContainerItemProxy */;
+		};
+		FD0B95E81AC5BA1400CC94B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF08FD7319EEB58D00E94CD7 /* Used Space */;
+			targetProxy = FD0B95E71AC5BA1400CC94B8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
