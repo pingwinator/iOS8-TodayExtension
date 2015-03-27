@@ -17,7 +17,6 @@
 		CF08FD7719EEB58D00E94CD7 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF08FD7619EEB58D00E94CD7 /* NotificationCenter.framework */; };
 		CF08FD7D19EEB58D00E94CD7 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08FD7C19EEB58D00E94CD7 /* TodayViewController.m */; };
 		CF08FD7F19EEB58D00E94CD7 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF08FD7E19EEB58D00E94CD7 /* MainInterface.storyboard */; };
-		CF08FD8219EEB58D00E94CD7 /* Used Space.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CF08FD7419EEB58D00E94CD7 /* Used Space.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +36,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				CF08FD8219EEB58D00E94CD7 /* Used Space.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
