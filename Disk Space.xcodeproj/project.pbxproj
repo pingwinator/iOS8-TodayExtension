@@ -28,20 +28,6 @@
 			remoteGlobalIDString = CF08FD4619EEB58100E94CD7;
 			remoteInfo = "Disk Space";
 		};
-		CF08FD8019EEB58D00E94CD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF08FD3F19EEB58100E94CD7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF08FD7319EEB58D00E94CD7;
-			remoteInfo = "Used Space";
-		};
-		CF08FD8319EEB58D00E94CD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CF08FD3F19EEB58100E94CD7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF08FD7319EEB58D00E94CD7;
-			remoteInfo = "Used Space";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -210,8 +196,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				CF08FD8119EEB58D00E94CD7 /* PBXTargetDependency */,
-				CF08FD8419EEB58D00E94CD7 /* PBXTargetDependency */,
 			);
 			name = "Disk Space";
 			productName = "Disk Space";
@@ -356,16 +340,6 @@
 			isa = PBXTargetDependency;
 			target = CF08FD4619EEB58100E94CD7 /* Disk Space */;
 			targetProxy = CF08FD6119EEB58200E94CD7 /* PBXContainerItemProxy */;
-		};
-		CF08FD8119EEB58D00E94CD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF08FD7319EEB58D00E94CD7 /* Used Space */;
-			targetProxy = CF08FD8019EEB58D00E94CD7 /* PBXContainerItemProxy */;
-		};
-		CF08FD8419EEB58D00E94CD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CF08FD7319EEB58D00E94CD7 /* Used Space */;
-			targetProxy = CF08FD8319EEB58D00E94CD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
