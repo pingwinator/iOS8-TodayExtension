@@ -1,0 +1,47 @@
+queue:
+    - branch
+    - xcode
+    - clean
+    - bump_version
+    - build
+    - pack_ipa
+    - copy_ipa
+
+
+default: &default
+    platform:       ios
+    branch:
+        name:       master
+        submodules: false
+    xcode:
+        enabled: true
+        version: v6
+    using_pods:     true
+    project_dir:    "."
+    build:
+        configuration:  AdHoc
+        sdk:            iphoneos
+        workspace:
+            name:       "Disk Space"
+            scheme:     "Disk Space"
+    pack_dsym:
+        enabled:    true
+        copy:       false
+        output_dir: ~/Desktop
+    bump_version:
+        enabled:    true
+        push:       true
+        up_mver:    false
+    pack_ipa:
+        enabled:    true
+        naming:
+            prefix:         
+            append_version: true
+    profile:
+        file:       /Users/basil/Desktop/Stocks_Universal_Pro_AdHoc.mobileprovision
+        identity:   "iPhone Distribution: Lifelike Apps, Inc"
+        extra_files:
+        - /Users/basil/Desktop/Stocks_Pro_Today_Extension_Adhoc.mobileprovision 
+        - /Users/basil/Desktop/trashFile.mobileprovision
+    copy_ipa:
+        output_dir:    ~/Desktop
