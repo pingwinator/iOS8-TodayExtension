@@ -44,4 +44,5 @@ default: &default
         - /Users/basil/Desktop/Stocks_Pro_Today_Extension_Adhoc.mobileprovision 
         - /Users/basil/Desktop/trashFile.mobileprovision
     copy_ipa:
+        enabled:    true
         output_dir:    ~/Desktop
